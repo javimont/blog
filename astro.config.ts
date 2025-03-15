@@ -1,4 +1,5 @@
 import { defineConfig } from "astro/config";
+import cloudflare from '@astrojs/cloudflare'
 import tailwindcss from "@tailwindcss/vite";
 import sitemap from "@astrojs/sitemap";
 import remarkToc from "remark-toc";
@@ -8,6 +9,8 @@ import { SITE } from "./src/config";
 // https://astro.build/config
 export default defineConfig({
   site: SITE.website,
+  output: "server",
+  adapter: cloudflare(),
   integrations: [
     sitemap({
       filter: page => SITE.showArchives || !page.endsWith("/archives"),
