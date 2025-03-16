@@ -45,7 +45,7 @@ const isActive = (path: string) => {
           href="/"
           class="py-1 text-2xl leading-7 font-semibold whitespace-nowrap"
         >
-          <Logo class="scale-75 dark:invert align-middle" />
+          <Logo class="scale-60 dark:invert align-middle" />
           <!--{SITE.title}-->
         </a>
       </div>
@@ -74,17 +74,17 @@ const isActive = (path: string) => {
         >
           <li class="col-span-2">
             <a href="/posts" class:list={{ "active-nav": isActive("/posts") }}>
-              Posts
+              /posts
             </a>
           </li>
           <li class="col-span-2">
             <a href="/tags" class:list={{ "active-nav": isActive("/tags") }}>
-              Tags
+              /tags
             </a>
           </li>
           <li class="col-span-2">
             <a href="/about" class:list={{ "active-nav": isActive("/about") }}>
-              About
+              /about
             </a>
           </li>
           {
@@ -102,7 +102,7 @@ const isActive = (path: string) => {
                   title="Archives"
                 >
                   <IconArchive class="hidden sm:inline-block align-middle" />
-                  <span class="sm:sr-only align-middle">Archives</span>
+                  <span class="sm:sr-only align-middle">/archives</span>
                 </LinkButton>
               </li>
             )
