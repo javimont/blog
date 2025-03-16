@@ -12,19 +12,19 @@
 
 :root,
 html[data-theme="light"] {
-  --background: #ffffff;
-  --foreground: #000000;
-  --accent: #e14a39;
-  --muted: #efd8b0;
-  --border: #dc9891;
+  --background: #dedede;
+  --foreground: #393939;
+  --accent: #3971e1;
+  --muted: #bfbfbf;
+  --border: #7698db;
 }
 
 html[data-theme="dark"] {
   --background: #000000;
-  --foreground: #e6e6e6;
-  --accent: #e15514;
-  --muted: #596b81;
-  --border: #3b4655;
+  --foreground: #dedede;
+  --accent: #3971e1;
+  --muted: #2d2d2d;
+  --border: #4b4b4b;
 }
 
 @theme inline {
