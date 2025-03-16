@@ -4,25 +4,25 @@
 @custom-variant dark (&:where([data-theme=dark], [data-theme=dark] *));
 
 @font-face {
-  font-family: "Geist";
-  src: url("/fonts/geist-variable.woff2") format("woff2");
+  font-family: "Inter";
+  src: url("/fonts/InterVariable.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 :root,
 html[data-theme="light"] {
-  --background: #f6eee1;
-  --foreground: #012c56;
+  --background: #ffffff;
+  --foreground: #000000;
   --accent: #e14a39;
   --muted: #efd8b0;
   --border: #dc9891;
 }
 
 html[data-theme="dark"] {
-  --background: #2f3741;
+  --background: #000000;
   --foreground: #e6e6e6;
-  --accent: #1ad9d9;
+  --accent: #e15514;
   --muted: #596b81;
   --border: #3b4655;
 }
@@ -45,7 +45,7 @@ html[data-theme="dark"] {
     @apply overflow-y-scroll scroll-smooth;
   }
   body {
-    font-family: "Geist", sans-serif !important;
+    font-family: "Inter", sans-serif !important;
     @apply flex min-h-svh flex-col bg-background font-sans text-foreground selection:bg-accent/75 selection:text-background;
   }
   a,
