@@ -13,19 +13,19 @@ export const SOCIALS = [
   {
     name: "Github",
     href: "https://github.com/javimont",
-    linkTitle: ` ${SITE.title} on Github`,
+    linkTitle: ` ${SITE.title} en Github`,
     icon: IconGitHub,
   },
   {
     name: "Mastodon",
     href: "https://mastodon.social/@jvmnt",
-    linkTitle: `${SITE.title} on X`,
+    linkTitle: `${SITE.title} en Mastodon`,
     icon: IconMast,
   },
   {
     name: "Mail",
     href: "mailto:jmonterohoyos@gmail.com",
-    linkTitle: `Send an email to ${SITE.title}`,
+    linkTitle: `Envía un email a ${SITE.title}`,
     icon: IconMail,
   },
 ] as const;
@@ -34,13 +34,13 @@ export const SHARE_LINKS = [
   {
     name: "Mastodon",
     href: "https://x.com/intent/post?url=",
-    linkTitle: `Share this post on Mastodon`,
+    linkTitle: `Comparte en Mastodon`,
     icon: IconMast,
   },
   {
     name: "Mail",
     href: "mailto:?subject=See%20this%20post&body=",
-    linkTitle: `Share this post via email`,
+    linkTitle: `Envía este post por email`,
     icon: IconMail,
   },
 ] as const;

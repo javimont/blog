@@ -5,7 +5,7 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ["Geist", "sans-serif"],
+        sans: ["Inter", "sans-serif"],
       },
     },
   },
