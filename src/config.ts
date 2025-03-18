@@ -2,9 +2,9 @@ export const SITE = {
   website: "https://jvmnt.pages.dev/", // replace this with your deployed domain
   author: "Javier Montero",
   profile: "null",
-  desc: "Blog personal.",
+  desc: "Blog personal de Javier Montero",
   title: "jvmnt",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "ogimage.svg",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 4,
@@ -12,8 +12,8 @@ export const SITE = {
   showArchives: true,
   showBackButton: true, // show back button in post detail
   editPost: {
-    url: "https://github.com/satnaing/astro-paper/edit/main/src/content/blog",
-    text: "Suggest Changes",
+    url: "https://github.com//javimont/blog/edit/main/src/content/blog",
+    text: "¿Errores?",
     appendFilePath: true,
   },
   dynamicOgImage: true,
