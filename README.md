@@ -29,10 +29,14 @@ Si deseas ejecutar este blog en local, sigue estos pasos:
    ```
 4. Abre `http://localhost:4321` en tu navegador (puede variar según la configuración de Astro).
 
+## Basado en 
+
+El blog esta basado en la plantilla [AstroPaper](https://astro-paper.pages.dev/) de [Sat Naing](https://github.com/satnaing). 
+
 ## Personalización
 
 - La tipografía predeterminada es **Inter**, pero puedes cambiarla fácilmente editando los estilos en `src/styles`.
-- Se pueden modificar otros aspectos visuales mediante Tailwind CSS.
+- Se pueden modificar otros aspectos visuales fácil.
 
 ## Licencia
 
