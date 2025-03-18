@@ -3,34 +3,12 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+## Sobre mí
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+Soy una persona que solo entiende las cosas cuando me las explico a mí mismo. Este blog existe porque me cansé de que las empresas sean dueñas del contenido que creo. También porque me apetecía tener un sitio propio, sin algoritmos ni métricas, donde escribir sin que nadie me diga qué hacer.
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
+No hay un propósito claro aquí. Casi todo lo que publico es personal: cosas que aprendo, que descubro o que simplemente me pasan por la cabeza. No sigo ninguna rutina, más allá de intentar entender el mundo y explicármelo en el proceso.
 
-<div>
-  <img src="/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
+Si quieres decirme algo, puedes escribirme por [email](mailto:jmonterohoyos@gmail.com) o en [Mastodon](https://tuperfilmastodon.com).
 
-## Tech Stack
-
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
-
-## Features
-
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+Ah, y por si te lo preguntas: soy zurdo y tengo [talasemia minor](https://es.wikipedia.org/wiki/Talasemia).
