@@ -1,0 +1,22 @@
+{
+	"Insertar metadatos de post": {
+	  "prefix": "metadatosPost",
+	  "body": [
+		"---",
+		"title: ${1:Título del post}",
+		"author: ${2:default}",
+		"pubDatetime: ${3:2022-09-21T05:17:19Z}",
+		"modDatetime: ${4:# Solo si el post ha sido modificado}",
+		"slug: ${5:default}",
+		"featured: ${6:true} #aparece en la sección de la home",
+		"draft: ${7:false}",
+		"tags:",
+		"  - ${8:tags}",
+		"ogImage: ${9:default}",
+		"description: ${10:This is the example description of the example post.}",
+		"canonicalURL: ${11:default}",
+		"---"
+	  ],
+	  "description": "Inserta los metadatos de un post"
+	}
+  }
